@@ -1,0 +1,25 @@
+{
+  "name": "functional-programming-library",
+  "version": "1.0.0",
+  "description": "Functional Library Examples",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rawda-developer/JavaScript-Functional-Programming-Libs.git"
+  },
+  "author": "Rawda Yasser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rawda-developer/JavaScript-Functional-Programming-Libs/issues"
+  },
+  "homepage": "https://github.com/rawda-developer/JavaScript-Functional-Programming-Libs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10"
+  }
+}
